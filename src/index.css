@@ -1,0 +1,46 @@
+:root {
+  --color-brown: #5D4037; /* Chocolate */
+  --color-brown-dark: #3E2723;
+  --color-pink: #FF4081; /* Pink accent */
+  --color-pink-light: #FF80AB;
+  --color-beige: #F5F5DC; /* Background */
+  --color-beige-dark: #E6E2C3;
+  --color-white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--color-beige);
+  color: var(--color-brown);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DynaPuff', cursive;
+  color: var(--color-brown-dark);
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
