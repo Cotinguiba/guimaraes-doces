@@ -23,7 +23,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Guimares Doces
+          Guimarães Doces
         </motion.h1>
 
         <motion.p
